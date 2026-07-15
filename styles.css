@@ -428,12 +428,15 @@ input,textarea{font-family:inherit;}
   position:relative;
   border-radius:var(--radius-md);
   overflow:hidden;
-  aspect-ratio:3/4;
+  height:0;
+  padding-top:133.33%; /* ratio 3:4 — compatible avec tous les navigateurs, y compris anciens Android */
   background:linear-gradient(150deg,var(--secondary),var(--primary));
   box-shadow:0 14px 34px -24px rgba(17,17,17,.25);
   transition:transform .45s var(--ease), box-shadow .45s var(--ease);
 }
 .program-card img{
+  position:absolute;
+  inset:0;
   width:100%;height:100%;object-fit:cover;
   transition:transform .6s var(--ease);
 }
