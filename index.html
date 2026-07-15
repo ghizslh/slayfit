@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SlayFit Gym — Train Like a Queen. Slay Every Day. | Oran</title>
+<meta name="description" content="SlayFit Gym, le premier club de fitness 100% féminin à Oran. Coaching professionnel, communauté bienveillante, transformation physique et confiance en soi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= LOADER ================= -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <svg class="loader-crown" width="46" height="36" viewBox="0 0 46 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 30L1 10L13 19L23 4L33 19L45 10L42 30H4Z" stroke="#D4AF37" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="23" cy="4" r="2.4" fill="#D4AF37"/>
+    </svg>
+    <p class="loader-word">SLAYFIT</p>
+    <div class="loader-line"><span></span></div>
+  </div>
+</div>
+
+<!-- ================= SCROLL PROGRESS ================= -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo" aria-label="SlayFit Gym — Accueil">
+      <img src="images/logo.png" alt="SlayFit Gym" class="logo-img">
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">Accueil</a>
+      <a href="#about" class="nav-link">À propos</a>
+      <a href="#programs" class="nav-link">Programmes</a>
+      <a href="#boutique" class="nav-link">Boutique</a>
+      <a href="#slayfood" class="nav-link">SlayFood</a>
+      <a href="#schedule" class="nav-link">Planning</a>
+      <a href="#testimonials" class="nav-link">Avis</a>
+      <a href="#location" class="nav-link">Localisation</a>
+    </nav>
+
+    <button class="nav-burger" id="navBurger" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="hero-blob blob-1"></div>
+    <div class="hero-blob blob-2"></div>
+    <div class="hero-grain"></div>
+  </div>
+
+  <div class="hero-crest" data-reveal>
+    <svg width="30" height="24" viewBox="0 0 46 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M4 30L1 10L13 19L23 4L33 19L45 10L42 30H4Z" stroke="#D4AF37" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="23" cy="4" r="2.4" fill="#D4AF37"/>
+    </svg>
+  </div>
+
+  <div class="hero-content">
+    <p class="eyebrow" data-reveal>Oran · Club Féminin Premium</p>
+    <h1 class="hero-title" data-reveal>
+      Deviens la version<br>
+      la plus <span class="script">forte</span> de toi-même.
+    </h1>
+    <p class="hero-subtitle" data-reveal>
+      Bienvenue chez SlayFit Gym, le premier club de fitness 100% féminin
+      d'Oran, pensé pour révéler ta force, ta santé et ta confiance.
+    </p>
+    <div class="hero-actions" data-reveal>
+      <a href="#programs" class="btn btn-primary">Découvrir nos programmes</a>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Défiler vers le bas">
+    <span>Découvrir</span>
+    <i></i>
+  </a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="section-inner about-grid">
+    <div class="about-visual" data-reveal>
+      <div class="frame frame-a">
+        <img src="images/about1.jpeg" alt="force">
+        <span class="frame-tag">Force</span>
+      </div>
+      <div class="frame frame-b">
+        <img src="images/about2.jpeg" alt="Communauté">
+        <span class="frame-tag">Communauté</span>
+      </div>
+      <div class="frame frame-c">
+        <img src="images/about3.jpeg" alt="Confiance">
+        <span class="frame-tag">Confiance</span>
+      </div>
+      <div class="seal-badge">
+        <svg width="22" height="17" viewBox="0 0 46 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 30L1 10L13 19L23 4L33 19L45 10L42 30H4Z" stroke="#D4AF37" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="23" cy="4" r="2.4" fill="#D4AF37"/>
+        </svg>
+        <span>Depuis notre ouverture</span>
+      </div>
+    </div>
+
+    <div class="about-copy">
+      <p class="eyebrow" data-reveal>Notre histoire</p>
+      <h2 class="section-title" data-reveal>Bien plus qu'une salle de sport.</h2>
+      <p class="about-text" data-reveal>
+        SlayFit Gym est un centre de fitness premium réservé aux femmes,
+        situé au cœur d'Oran. Nous avons créé un espace où chaque femme
+        peut se dépasser, se reconstruire et se sentir enfin chez elle —
+        loin des regards, entourée d'une communauté qui la pousse vers le haut.
+      </p>
+
+      <div class="mission-box" data-reveal>
+        <p class="mission-label">Notre mission</p>
+        <p class="mission-text">Aider chaque femme à devenir plus forte, physiquement et mentalement.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROGRAMMES ================= -->
+<section class="services" id="programs">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Ce que nous offrons</p>
+      <h2 class="section-title" data-reveal>Des programmes taillés pour toi.</h2>
+      <p class="section-sub" data-reveal>Onze disciplines. Une seule direction : ta meilleure version.</p>
+    </div>
+
+    <div class="programs-grid" data-reveal>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/pilates.jpeg" alt="Pilates" loading="lazy">
+        <span class="program-name">Pilates</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/danse-orientale.jpeg" alt="Danse Orientale" loading="lazy">
+        <span class="program-name">Danse Orientale</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/ballet-sculpt.jpeg" alt="Ballet Sculpt" loading="lazy">
+        <span class="program-name">Ballet Sculpt</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/abdo-fessiers.jpeg" alt="Abdo Fessiers" loading="lazy">
+        <span class="program-name">Abdo Fessiers</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/self-defense.jpeg" alt="Self Défense" loading="lazy">
+        <span class="program-name">Self Défense</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/pilates-sculpt.jpeg" alt="Pilates Sculpt" loading="lazy">
+        <span class="program-name">Pilates Sculpt</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/summer-body-challenge.jpeg" alt="Summer Body Challenge" loading="lazy">
+        <span class="program-name">Summer Body Challenge</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/ballet-kids.jpeg" alt="Ballet Kids" loading="lazy">
+        <span class="program-name">Ballet Kids</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/fitness-kids.jpeg" alt="Fitness Kids" loading="lazy">
+        <span class="program-name">Fitness Kids</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/zumba.jpeg" alt="Zumba" loading="lazy">
+        <span class="program-name">Zumba</span>
+      </article>
+      <article class="program-card" tabindex="0" role="button">
+        <img src="images/programs/heels-twerk.jpeg" alt="Heels &amp; Twerk" loading="lazy">
+        <span class="program-name">Heels &amp; Twerk</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="why" id="why">
+  <div class="section-inner">
+    <div class="section-head light">
+      <p class="eyebrow gold" data-reveal>Pourquoi SlayFit</p>
+      <h2 class="section-title on-dark" data-reveal>L'expérience qui change tout.</h2>
+    </div>
+
+    <div class="why-grid" data-reveal>
+      <div class="why-item"><span class="why-num">01</span><h4>100% Femmes</h4><p>Un espace pensé uniquement pour toi, sans jugement.</p></div>
+      <div class="why-item"><span class="why-num">02</span><h4>Coachs Professionnelles</h4><p>Une équipe certifiée, à l'écoute de tes objectifs.</p></div>
+      <div class="why-item"><span class="why-num">03</span><h4>Équipements Modernes</h4><p>Un matériel haut de gamme entretenu quotidiennement.</p></div>
+      <div class="why-item"><span class="why-num">04</span><h4>Cadre Luxueux</h4><p>Un lieu élégant conçu pour ton bien-être total.</p></div>
+      <div class="why-item"><span class="why-num">05</span><h4>Communauté Motivante</h4><p>Des femmes qui se soutiennent et avancent ensemble.</p></div>
+      <div class="why-item"><span class="why-num">06</span><h4>Hygiène de Vie</h4><p>Un accompagnement au-delà de la salle de sport.</p></div>
+      <div class="why-item"><span class="why-num">07</span><h4>Formules Flexibles</h4><p>Des abonnements adaptés à ton rythme de vie.</p></div>
+      <div class="why-item"><span class="why-num">08</span><h4>Espace Sécurisé</h4><p>Confidentialité et sérénité garanties à chaque visite.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BOUTIQUE ================= -->
+<section class="gallery" id="boutique">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Notre univers</p>
+      <h2 class="section-title" data-reveal>La mini boutique SlayFit.</h2>
+      <p class="section-sub" data-reveal>À l'intérieur du club, un corner dédié à tes tenues de sport et accessoires du quotidien.</p>
+    </div>
+
+    <div class="masonry" data-reveal>
+      <div class="m-item m-tall"><img src="images/boutique/boutique-1.jpeg" alt="Tenues de sport SlayFit" loading="lazy"><span>Tenues de sport</span></div>
+      <div class="m-item"><img src="images/boutique/boutique-2.jpeg" alt="Accessoires SlayFit" loading="lazy"><span>Accessoires</span></div>
+      <div class="m-item"><img src="images/boutique/boutique-3.jpeg" alt="Corner boutique SlayFit" loading="lazy"><span>Corner Boutique</span></div>
+      <div class="m-item m-tall"><img src="images/boutique/boutique-4.jpeg" alt="Collection SlayFit" loading="lazy"><span>Collection Club</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SLAYFOOD ================= -->
+<section class="slayfood" id="slayfood">
+  <div class="section-inner slayfood-inner">
+    <div class="slayfood-images" data-reveal>
+      <img src="images/slayfood/slayfood-1.jpeg" alt="SlayFood - plat salé" loading="lazy">
+      <img src="images/slayfood/slayfood-2.jpeg" alt="SlayFood - plat sucré" loading="lazy">
+    </div>
+
+    <div class="slayfood-copy" data-reveal>
+      <p class="eyebrow gold">SlayFood</p>
+      <h2 class="section-title on-dark">Ta salle de sport a aussi son espace gourmand.</h2>
+      <p class="slayfood-text">
+        Après l'effort, retrouve-toi au coin SlayFood pour un menu sucré-salé pensé
+        pour accompagner ton hygiène de vie — healthy, gourmand et fait pour te faire plaisir.
+      </p>
+      <button type="button" id="openMenuBtn" class="btn btn-gold">Découvrir le menu</button>
+    </div>
+
+    <div class="slayfood-images slayfood-images-right" data-reveal>
+      <img src="images/slayfood/slayfood-3.jpeg" alt="SlayFood - espace gourmand" loading="lazy">
+      <img src="images/slayfood/slayfood-4.jpeg" alt="SlayFood - boissons" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ================= SCHEDULE ================= -->
+<section class="schedule" id="schedule">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Planning</p>
+      <h2 class="section-title" data-reveal>Organise ta semaine de reine.</h2>
+      <p class="section-sub" data-reveal>Horaires modifiables selon les disponibilités du club.</p>
+    </div>
+
+    <div class="schedule-grid" data-reveal>
+      <div class="day-card">
+        <h4>Samedi</h4>
+        <p class="slot"><span>08:00</span> HIIT</p>
+        <p class="slot"><span>17:00</span> Renforcement</p>
+        <p class="slot"><span>19:00</span> Cardio</p>
+      </div>
+      <div class="day-card">
+        <h4>Dimanche</h4>
+        <p class="slot"><span>09:00</span> Stretching</p>
+        <p class="slot"><span>18:00</span> Coaching Perso</p>
+      </div>
+      <div class="day-card">
+        <h4>Lundi</h4>
+        <p class="slot"><span>08:00</span> Fonctionnel</p>
+        <p class="slot"><span>17:30</span> HIIT</p>
+        <p class="slot"><span>19:30</span> Groupe</p>
+      </div>
+      <div class="day-card">
+        <h4>Mardi</h4>
+        <p class="slot"><span>09:00</span> Cardio</p>
+        <p class="slot"><span>18:00</span> Musculation</p>
+      </div>
+      <div class="day-card">
+        <h4>Mercredi</h4>
+        <p class="slot"><span>08:00</span> Récupération</p>
+        <p class="slot"><span>17:00</span> HIIT</p>
+        <p class="slot"><span>19:00</span> Cardio</p>
+      </div>
+      <div class="day-card">
+        <h4>Jeudi</h4>
+        <p class="slot"><span>09:00</span> Fonctionnel</p>
+        <p class="slot"><span>18:00</span> Groupe</p>
+      </div>
+      <div class="day-card">
+        <h4>Vendredi</h4>
+        <p class="slot"><span>10:00</span> Stretching</p>
+        <p class="slot"><span>17:00</span> Coaching Perso</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HEALTHY LIFESTYLE ================= -->
+<section class="lifestyle" id="lifestyle">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Healthy Lifestyle</p>
+      <h2 class="section-title" data-reveal>Ta force commence dans l'assiette.</h2>
+    </div>
+
+    <div class="lifestyle-grid" data-reveal>
+      <article class="life-card">
+        <span class="life-tag">Recette</span>
+        <h4>Bowl protéiné post-training</h4>
+        <p>Quinoa, poulet grillé, avocat et légumes de saison pour recharger tes muscles.</p>
+      </article>
+      <article class="life-card">
+        <span class="life-tag">Nutrition</span>
+        <h4>L'hydratation, ta meilleure alliée</h4>
+        <p>Boire suffisamment améliore tes performances et accélère ta récupération.</p>
+      </article>
+      <article class="life-card">
+        <span class="life-tag">Motivation</span>
+        <h4>La discipline avant la motivation</h4>
+        <p>Les résultats naissent de la régularité, pas seulement de l'envie du moment.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="testimonials" id="testimonials">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow" data-reveal>Témoignages</p>
+      <h2 class="section-title" data-reveal>Elles ont slay leur transformation.</h2>
+    </div>
+
+    <div class="carousel" data-reveal>
+      <div class="carousel-track" id="carouselTrack">
+        <article class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"SlayFit m'a redonné confiance en mon corps. L'ambiance est incroyable et les coachs sont à l'écoute."</p>
+          <div class="testi-author">
+            <div class="avatar">S.</div>
+            <div><strong>Sarah B.</strong><span>Étudiante</span></div>
+          </div>
+        </article>
+        <article class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"En 6 mois j'ai retrouvé ma forme et surtout ma joie de vivre. Merci à toute l'équipe SlayFit."</p>
+          <div class="testi-author">
+            <div class="avatar">Y.</div>
+            <div><strong>Yasmine K.</strong><span>Architecte</span></div>
+          </div>
+        </article>
+        <article class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>"Un cadre luxueux, une équipe bienveillante et des résultats concrets. Je recommande à 100%."</p>
+          <div class="testi-author">
+            <div class="avatar">N.</div>
+            <div><strong>Nour A.</strong><span>Médecin</span></div>
+          </div>
+        </article>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LOCATION ================= -->
+<section class="location" id="location">
+  <div class="section-inner location-grid">
+    <div class="location-info" data-reveal>
+      <p class="eyebrow" data-reveal>Nous trouver</p>
+      <h2 class="section-title" data-reveal>SlayFit Gym, Oran.</h2>
+      <ul class="info-list">
+        <li><strong>Adresse</strong><span>Rue des Frères Bouyahia, Oran, Algérie</span></li>
+        <li><strong>Téléphone</strong><span>+213 660 88 35 28</span></li>
+        <li><strong>Horaires</strong><span>Sam – Jeu : 08h00 – 22h00 · Ven : 14h00 – 20h00</span></li>
+      </ul>
+      <div class="location-actions">
+        <a href="https://wa.me/213660883528" target="_blank" rel="noopener" class="btn btn-primary">WhatsApp</a>
+        <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-ghost">Itinéraire</a>
+      </div>
+    </div>
+    <div class="map-frame" data-reveal>
+      <iframe title="Localisation SlayFit Gym Oran" src="https://maps.google.com/maps?q=Oran,Algeria&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="section-inner footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.png" alt="SlayFit Gym" class="logo-img">
+      </a>
+      <p>Train Like a Queen. Slay Every Day.</p>
+      <div class="social-row">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="TikTok">TT</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h5>Liens rapides</h5>
+      <a href="#about">À propos</a>
+      <a href="#programs">Programmes</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#slayfood">SlayFood</a>
+      <a href="#schedule">Planning</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>Infos pratiques</h5>
+      <span>Rue des Frères Bouyahia, Oran</span>
+      <span>+213 660 88 35 28</span>
+      <span>Sam – Jeu : 08h – 22h</span>
+    </div>
+
+    <div class="footer-col">
+      <h5>Newsletter</h5>
+      <p>Reçois nos conseils fitness &amp; nutrition.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Ton email" required>
+        <button type="submit" aria-label="S'inscrire">→</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 SlayFit Gym — Oran, Algérie. Tous droits réservés.</span>
+  </div>
+</footer>
+
+<!-- ================= MENU MODAL (SlayFood) ================= -->
+<div class="menu-modal" id="menuModal" aria-hidden="true">
+  <div class="menu-modal-overlay" id="menuModalOverlay"></div>
+  <div class="menu-modal-panel" role="dialog" aria-modal="true" aria-labelledby="menuModalTitle">
+    <button class="menu-modal-close" id="menuModalClose" aria-label="Fermer le menu">✕</button>
+
+    <div class="menu-modal-head">
+      <p class="eyebrow gold">SlayFood</p>
+      <h2 class="menu-modal-title" id="menuModalTitle">Notre Menu</h2>
+      <div class="menu-tabs">
+        <button class="menu-tab active" data-tab="sale" type="button">Salé</button>
+        <button class="menu-tab" data-tab="sucre" type="button">Sucré</button>
+        <button class="menu-tab" data-tab="boissons" type="button">Boissons</button>
+      </div>
+    </div>
+
+    <div class="menu-modal-body">
+      <div class="menu-grid" data-panel="sale">
+        <button class="menu-photo" type="button"><img src="images/menu/sale-1.jpeg" alt="Menu salé 1" loading="lazy"></button>
+        <button class="menu-photo" type="button"><img src="images/menu/sale-2.jpeg" alt="Menu salé 2" loading="lazy"></button>
+      </div>
+      <div class="menu-grid" data-panel="sucre" hidden>
+        <button class="menu-photo" type="button"><img src="images/menu/sucre-1.jpeg" alt="Menu sucré 1" loading="lazy"></button>
+      </div>
+      <div class="menu-grid" data-panel="boissons" hidden>
+        <button class="menu-photo" type="button"><img src="images/menu/boisson1.jpeg" alt="Menu Boissons 1" loading="lazy"></button>
+        <button class="menu-photo" type="button"><img src="images/menu/boisson2.jpeg" alt="Menu Boissons 2" loading="lazy"></button>
+        <button class="menu-photo" type="button"><img src="images/menu/boisson3.jpeg" alt="Menu Boissons 3" loading="lazy"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fermer l'image">✕</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<!-- ================= FLOATING BUTTONS ================= -->
+<a href="https://wa.me/213660883528" target="_blank" rel="noopener" class="fab fab-whatsapp" aria-label="Contacter sur WhatsApp">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.7.44 3.36 1.28 4.82L2.05 22l5.4-1.42a9.87 9.87 0 0 0 4.59 1.17h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.13.11-1.83-.12-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.8-4.16-4.94-4.35-.15-.19-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.19 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.83 2 .9 2.14.07.15.12.32.02.5-.09.19-.14.3-.28.46-.14.16-.29.36-.42.48-.14.13-.28.27-.12.53.15.27.68 1.12 1.46 1.82 1 .89 1.85 1.17 2.11 1.3.27.13.42.11.58-.07.16-.18.66-.77.84-1.03.18-.27.35-.22.6-.13.24.09 1.55.73 1.82.86.27.13.45.2.51.31.07.12.07.68-.17 1.36Z"/></svg>
+</a>
+
+<button class="fab fab-top" id="scrollTop" aria-label="Remonter en haut">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
